@@ -64,7 +64,14 @@
     
     .warning{
         color: rgb( 240, 20, 20 )
-        }  
+    }
+    .parent .popup {
+      display: none;
+    }
+
+    .parent:hover .popup {
+      display: block;
+    }
 </style>
 <script>
     MathJax.Hub.Config({
